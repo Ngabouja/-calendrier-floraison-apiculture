@@ -6,6 +6,7 @@
 }
 
 main {
+	background: #f7fafd;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -13,6 +14,7 @@ main {
 }
 
 .menu-1 {
+	background: #fff;
 	display: flex;
 	flex-direction: row;
 	gap: 16px;
@@ -25,6 +27,26 @@ main {
 	line-height: 24px;
 }
 
+.p-2 {
+	color: #234;
+	text-align: center;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.p-3 {
+	color: #234;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: -0.24px;
+}
+
 h1 {
 	color: #38b031;
 	text-align: center;
@@ -33,4 +55,23 @@ h1 {
 	font-weight: 700;
 	line-height: normal;
 	letter-spacing: -0.64px;
+}
+
+.menu-2 {
+	background: #fff;
+}
+
+.menu-3 {
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.vert {
+	border-radius: 8px;
+	background: #38b031;
+	border: none;
+	padding: 20px;
+	width: 200px;
 }
